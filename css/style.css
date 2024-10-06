@@ -99,3 +99,9 @@ h2 {
     font-size: 28px;
     font-weight: bold;
 }
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}

@@ -1,19 +1,107 @@
-*{
-    box-sizing: border-box;
-    /*font-family: 'Space Grotesk', sans-serif;*/
-    font-family: 'Poppins';
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Bisa disesuaikan dengan pilihan yang di-load */
+}
+
+.icon-center {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+* {
     margin: 0px;
     padding: 0px;
     list-style: none;
     text-decoration: none;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
 }
 
-nav{
+nav {
     padding: 42px 126px 42px 83px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #129D94;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.layanan-premium .card h5 {
+    color: #343A40;
+    font-size: 18px;
+    text-align: start;
+}
+
+.layanan-premium .card p {
+    font-size: 14px;
+    color: #6C757D;
+    text-align: start;
+}
+
+.jenis-soal-item {
+    background-color: #E5F9F7;
+    color: #129D94;
+    text-align: center;
+}
+
+.jenis-soal-item img {
+    margin-bottom: 10px;
+}
+
+.jenis-soal-item p {
+    font-weight: bold;
+    color: #343A40;
+}
+
+.btn-custom {
+    background-color: #f7b500; /* Warna kuning */
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.ikon-wrapper {
+    background-color: #008080; /* Warna hijau untuk lingkaran */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.ikon {
+    width: 30px;
+    height: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
 }

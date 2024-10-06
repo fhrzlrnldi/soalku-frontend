@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    /*font-family: 'Space Grotesk', sans-serif;*/
+    font-family: 'Poppins';
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    padding: 42px 126px 42px 83px;
+}

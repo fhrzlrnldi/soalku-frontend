@@ -285,3 +285,77 @@ iframe {
     margin-left: -4.3rem;
     width: 3.1rem;
 }
+
+.em-bg-primary-gradient {
+    background: linear-gradient(to right, #007b7f, #ffc107); /* Warna gradasi */
+    border-radius: 20px; /* Pembulatan sudut */
+}
+
+.did-floating-label-content {
+    margin-bottom: 15px;
+}
+
+.did-floating-input {
+    border: 2px solid #e5e5e5;
+    border-radius: 12px; /* Membulatkan sudut input */
+    padding: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.did-floating-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.btn.em-btn-primary {
+    background-color: #007b7f; /* Warna tombol */
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 50px; /* Membulatkan sudut tombol */
+}
+
+.btn.em-btn-primary:hover {
+    background-color: #005f5c; /* Warna tombol saat dihover */
+}
+
+.shadow-sm {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-floating {
+    position: relative;
+}
+
+.form-floating input {
+    height: 50px; /* Menetapkan tinggi input */
+    padding: 10px 12px; /* Menambahkan padding di dalam input untuk label */
+    font-size: 16px;
+    line-height: 1.5; /* Menjaga agar teks input seimbang */
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.form-floating label {
+    position: absolute;
+    top: 80%; /* Mulai dari posisi tengah vertikal */
+    left: 12px;
+    transform: translateY(-50%); /* Menyelaraskan secara vertikal */
+    transition: 0.2s ease; /* Animasi transisi untuk efek mengambang */
+    background-color: transparent; /* Awalnya transparan */
+    padding: 0 5px;
+    pointer-events: none;
+    font-size: 16px; /* Ukuran awal label */
+}
+
+.form-floating input:focus + label,
+.form-floating input:not(:placeholder-shown) + label {
+    top: 0; /* Pindahkan label ke atas ketika input difokuskan atau diisi */
+    transform: translateY(-100%);
+    font-size: 12px; /* Kecilkan ukuran font saat mengambang */
+    background-color: white; /* Latar belakang putih saat label mengapung */
+    padding-left: 10px;
+    padding-right: 10px;
+}
